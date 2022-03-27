@@ -7,13 +7,12 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col my-col-sm my-col-md-4">
+            <div class="col my-col">
               <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
@@ -49,52 +48,54 @@
                     Hot Buys</h1>
             </div> <!--columm/navbar/header-->
 
-           <h6 class="newreleasesm mt-5">New Releases</h6>
+           <h6 class="newreleases mt-5">New Releases</h6>
+           <div class="col">
             <div class="card-group">
-           <div class="card" style="width: 18rem;">
-              <img src="laptop.png" class="card-laptop" style="height: 12.3rem;" alt="picture of laptop">
-              <div class="card-body">
-                <ul class="list-unstyled">
-                  <li>Macbook Pro</li>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-half" style="color:gold;"></i>
-                  <i class="bi bi-star"></i>
-                  <li>$1200</li>
-                </ul>
-              </div>
-            </div><!--Column/Macbook-->
-            <div class="card" style="width: 18rem;">
-              <img src="iphone.png" class="card-iphone" style="height:12.3rem" alt="picture of iphone">
-              <div class="card-body">
-                <ul class="list-unstyled">
-                  <li>iphone 100</li>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star"></i>
-                  <li>$1000</li>
-                </ul>
-              </div>
-            </div><!--Column/iphone-->
-            <div class="card" style="width: 18rem;">
-              <img src="camera.png" class="card-camera" alt="picture of camera">
-              <div class="card-body">
-                <ul class="list-unstyled">
-                  <li>Ikon 3000</li>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star-fill" style="color:gold;"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <li>$300</li>
-                </ul>
-              </div>
-            </div><!--Column/camera-->
-            </div><!--card-group/products list-->  
-
+              <div class="card" style="width: 18rem;">
+                 <img src="laptop.png" class="card-laptop" style="height: 12.3rem;" alt="picture of laptop">
+                 <div class="card-body">
+                   <ul class="list-unstyled">
+                     <li>Macbook Pro</li>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-half" style="color:gold;"></i>
+                     <i class="bi bi-star"></i>
+                     <li>$1200</li>
+                   </ul>
+                 </div>
+               </div><!--Column/Macbook-->
+               <div class="card" style="width: 18rem;">
+                 <img src="iphone.png" class="card-iphone" style="height:12.3rem" alt="picture of iphone">
+                 <div class="card-body">
+                   <ul class="list-unstyled">
+                     <li>iphone 100</li>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star"></i>
+                     <li>$1000</li>
+                   </ul>
+                 </div>
+               </div><!--Column/iphone-->
+               <div class="card" style="width: 18rem;">
+                 <img src="camera.png" class="card-camera" alt="picture of camera">
+                 <div class="card-body">
+                   <ul class="list-unstyled">
+                     <li>Ikon 3000</li>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star-fill" style="color:gold;"></i>
+                     <i class="bi bi-star"></i>
+                     <i class="bi bi-star"></i>
+                     <li>$300</li>
+                   </ul>
+                 </div>
+               </div><!--Column/camera-->
+               </div>     
+           </div> <!--card-group/products list-->
+           
             <h6 class="catergory-title mt-5">Shop by Category</h6>
             <div class="category-list">
               <div class="d-grid gap-2 d-md-block">
@@ -105,39 +106,37 @@
               </div>
             </div><!--Shop by Category-->  
 
-            <div class="card-group">
-              <div class="card text-white bg-primary mt-3" style="max-width: 30rem;">
-                <div class="card-header">Orders & Purchases</div>
-                <div class="card-body">
-                 <ul class="list-unstyled">
-                  <li>Check Order Status</li>
-                  <li>Shipping, Delivery & Pickup</li>
-                  <li>Returns & Exchanges</li>
-                 </ul>
-                </div>
-              </div>
-              <div class="card text-white bg-primary mt-3" style="max-width: 30rem;">
-                <div class="card-header">Support & Services</div>
-                <div class="card-body">
+            <nav class="navbar navbar-dark bg-primary mt-3">
+              <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1"></span>
+                <div class="col">
+                  <h6>Orders & Purchases</h6>
                   <ul class="list-unstyled">
-                    <li>Visit our Support Center</li>
+                    <li>Check Order Status</li>
+                    <li>Shipping, Delivery & Pickup</li>
+                    <li>Return & Exchange</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6>Support & Services</h6>
+                  <ul class="list-unstyled">
+                    <li>Support Center</li>
                     <li>Schedule a Service</li>
-                    <li>Protection and Support Plans</li>
-                  </ul>     
+                    <li>Protection & Support Plans</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6>Reward Membership</h6>
+                  <ul class="list-unstyled">
+                    <li>Reward Points</li>
+                    <li>Member Offers & Deals</li>
+                    <li>Member Benefits</li>
+                  </ul>
                 </div>
               </div>
-              <div class="card text-white bg-primary mt-3" style="max-width: 30rem;">
-                <div class="card-header">Reward Membership</div>
-                <div class="card-body">
-                    <ul class="list-unstyled">
-                      <li>My Reward Points</li>
-                      <li>Member Offers</li>
-                      <li>Member Benefits</li>
-                    </ul>
-                </div>
-              </div>
-            </div> <!--footer-->
+            </nav> <!--footer-->
           </div> <!--row-->
     </div> <!--container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
