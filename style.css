@@ -1,2 +1,7 @@
 .card-group{border-style: none;}
 
+.card-laptop{object-fit:cover;}
+
+.card-camera{object-fit:cover;}
+
+.card-iphone {object-fit:cover;}
